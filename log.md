@@ -32,3 +32,17 @@
 - **Verdict:** kill (returns + unstable + not enough volume filter to distinct)
 - **Grade:** sign right · turnover right
 
+## R002 · 2026-10-08 · Volume-confirmed reversal (Alpha#12)
+- **Expression:** sign(ts_delta(volume, 1)) * (-ts_delta(close, 1))  
+- **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
+- **Hypothesis:** Increasing volume amplifies the price signal reversal, while decreasing one signals the lack of institutional involvement, therefore less reliable for immediate reversal. 
+- **Other side:** Panicked sellers / hungry buyers, with the action of institution force created them forehand.
+- **Predicted:** sign + · turnover high
+- **Variants tested (incl. this one):** 2
+
+**Result**
+
+- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
+- **Yearly:** stable / carried by one year
+- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Grade:**
