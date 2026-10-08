@@ -61,3 +61,25 @@
 - **Yearly:** unstable, loses all years, differences in losses are huge (peak -3.0 Sharpe)
 - **Verdict:** kill (despite the reversal gives 1.62 Sharpe, 80% turnover killing the idea)
 - **Grade:** sign wrong  · turnover right (81.33%) 
+
+## R004 · 2026-10-08 · Where volume traded (Alpha#41)
+- **Expression:** power(high * low, 0.5) - vwap 
+- **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
+- **Hypothesis:** Mean-reversion mechanism: Midpoint > VWAP => Price being pushed, expecting a reversal into mean.
+- **Other side:** Trend-following traders 
+- **Predicted:** sign +; Sharpe 0.75-1.25 · turnover high (80%)
+- **Variants tested (incl. this one):** 1
+
+**Result**
+
+- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
+- **Yearly:** stable / carried by one year
+- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Grade:**
+
+**Result**
+
+- Sharpe -1.62 · fitness -0.68 · turnover 81.33% · returns -14.36% · drawdown 59.35%
+- **Yearly:** unstable, loses all years, differences in losses are huge (peak -3.0 Sharpe)
+- **Verdict:** kill (despite the reversal gives 1.62 Sharpe, 80% turnover killing the idea)
+- **Grade:** sign wrong  · turnover right (81.33%) 
