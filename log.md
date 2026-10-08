@@ -27,7 +27,8 @@
 
 **Result**
 
-- Sharpe _ · fitness 0.56 · turnover _% · returns _% · drawdown _%
-- **Yearly:** 
-- **Verdict:** 
-- **Grade:** 
+- Sharpe 0.98 · fitness 0.37 · turnover 33.01% · returns 4.74% · drawdown 6.06%
+- **Yearly:** unstable, negative years + positive years with low Sharpe and high Sharpe
+- **Verdict:** kill (returns + unstable + not enough volume filter to distinct)
+- **Grade:** sign right · turnover right
+
