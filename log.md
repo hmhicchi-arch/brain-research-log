@@ -77,3 +77,18 @@
 - **Verdict:** kill (turnover + one lucky year)
 - **Grade:** sign right · turnover right (approximately)
 
+## R005 · 2026-10-08 · Industry-Relative Operating Yield / Fundamental Value Factor
+- **Expression:** group_rank(operating_income / cap, industry) 
+- **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
+- **Hypothesis:** Long / short based on the company ranking relative to its peers in the same industry
+- **Other side:** Speculative growth chasers paying high valuation multiples for unprofitable peers (when long); value-trap bargain hunters buying distressed companies with declining operating cash flows (when short).
+- **Predicted:** sign +; Sharpe 0-0.5 · turnover low (20%)
+- **Variants tested (incl. this one):** 1
+
+**Result**
+
+- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
+- **Yearly:** stable / carried by one year
+- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Grade:**
+
