@@ -17,16 +17,19 @@ Every entry states the hypothesis, who takes the other side, the predicted sign 
 
 ```
 ## R___ · YYYY-MM-DD · <idea name>
-Expression:  
-Settings:    USA · TOP3000 · delay 1 · decay _ · neutralization _ · truncation _
-Hypothesis:  
-Other side:  
-Predicted:   sign _ · turnover low / medium / high
-Variants of this idea so far: _
---- result, pasted after the run ---
-Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
-Yearly:      stable / carried by one year
-Verdict:     keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Expression:**  
+- **Settings:** USA · TOP3000 · delay 1 · decay _ · neutralization _ · truncation _
+- **Hypothesis:**  
+- **Other side:**  
+- **Predicted:** sign _ · turnover low / medium / high
+- **Variants tested (incl. this one):** _
+
+**Result**
+
+- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
+- **Yearly:** stable / carried by one year
+- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Grade:**
 ```
 
 ## Platform reference (copied 2026-10-07)
