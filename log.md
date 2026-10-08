@@ -87,8 +87,8 @@
 
 **Result**
 
-- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
-- **Yearly:** stable / carried by one year
-- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
-- **Grade:**
+- Sharpe 0.81 · fitness 0.66 · turnover 3.55% · returns 8.21% · drawdown 24.67%
+- **Yearly:** unstable (-2.6 and 2.0 (maybe pandemic-related))
+- **Verdict:** keep / modify (clean turnover (3.55%) + decent fitness (0.66), the performance being affected mostly because of Covid black swan)
+- **Grade:** sign right · turnover low (20% => <20%, value investing)
 
