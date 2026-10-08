@@ -35,14 +35,14 @@
 ## R002 · 2026-10-08 · Volume-confirmed reversal (Alpha#12)
 - **Expression:** sign(ts_delta(volume, 1)) * (-ts_delta(close, 1))  
 - **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
-- **Hypothesis:** Increasing volume amplifies the price signal reversal, while decreasing one signals the lack of institutional involvement, therefore less reliable for immediate reversal. 
-- **Other side:** Panicked sellers / hungry buyers, with the action of institution force created them forehand.
+- **Hypothesis:** Increasing volume amplifies the price signal reversal, while decreasing volume signals the lack of institutional involvement; therefore, it is less reliable for immediate reversal. 
+- **Other side:** Panicked sellers / hungry buyers, with the action of institutional forces created them beforehand.
 - **Predicted:** sign + · turnover high
 - **Variants tested (incl. this one):** 2
 
 **Result**
 
-- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
-- **Yearly:** stable / carried by one year
-- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
-- **Grade:**
+- Sharpe 1.16 · fitness 0.4 · turnover 74.99% · returns 8.87% · drawdown 13.26%
+- **Yearly:** unstable, huge difference between a good year and a bad year (0.45 vs 2.11)
+- **Verdict:** kill (turnover + unstable)
+- **Grade:** sign right · turnover right
