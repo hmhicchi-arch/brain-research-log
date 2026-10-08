@@ -46,3 +46,18 @@
 - **Yearly:** unstable, huge difference between a good year and a bad year (0.45 vs 2.11)
 - **Verdict:** kill (turnover + unstable)
 - **Grade:** sign right · turnover right
+
+## R003 · 2026-10-08 · Intraday strength (Alpha#101)
+- **Expression:** (close - open) / (high - low + 0.001) 
+- **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
+- **Hypothesis:** Close near the high, institutions push the price, good signal to follow the trend  
+- **Other side:** Reversal traders 
+- **Predicted:** sign + (not vividly strong); Sharpe 0-0.75 · turnover high (70-80%)
+- **Variants tested (incl. this one):** 2
+
+**Result**
+
+- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
+- **Yearly:** stable / carried by one year
+- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
+- **Grade:**
