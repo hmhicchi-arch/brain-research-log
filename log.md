@@ -16,4 +16,18 @@
 - **Verdict:** kill (turnover + one lucky year)
 - **Grade:** sign right · turnover right
 
+## R001 · 2026-10-08 · Price–volume divergence (Alpha#6)
 
+- **Expression:** `-ts_corr(open, volume, 10)`
+- **Settings:** USA · TOP3000 · delay 1 · decay 4 · neutralization subindustry · truncation 0.08
+- **Hypothesis:** Negative correlation between open price and volume indicates panic selling / institutional liquidations, leading to short-term mean-reversion gains; positive correlation signals buying hype and exhaustion.
+- **Other side:** Panicked sellers on forced liquidations (when long); FOMO chasers buying high-volume breakouts (when short).
+- **Predicted:** sign + · turnover medium
+- **Variants tested (incl. this one):** 1
+
+**Result**
+
+- Sharpe _ · fitness 0.56 · turnover _% · returns _% · drawdown _%
+- **Yearly:** 
+- **Verdict:** 
+- **Grade:** 
