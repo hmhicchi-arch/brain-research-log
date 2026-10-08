@@ -72,14 +72,8 @@
 
 **Result**
 
-- Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
-- **Yearly:** stable / carried by one year
-- **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
-- **Grade:**
+- Sharpe 1.09 · fitness 0.37 · turnover 75.19% · returns 8.6% · drawdown 9.41%
+- **Yearly:** unstable, carried by one year (1.91 >< 0.34)
+- **Verdict:** kill (turnover + one lucky year)
+- **Grade:** sign right · turnover right (approximately)
 
-**Result**
-
-- Sharpe -1.62 · fitness -0.68 · turnover 81.33% · returns -14.36% · drawdown 59.35%
-- **Yearly:** unstable, loses all years, differences in losses are huge (peak -3.0 Sharpe)
-- **Verdict:** kill (despite the reversal gives 1.62 Sharpe, 80% turnover killing the idea)
-- **Grade:** sign wrong  · turnover right (81.33%) 
