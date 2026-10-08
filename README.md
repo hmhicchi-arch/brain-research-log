@@ -34,11 +34,11 @@ Every entry states the hypothesis, who takes the other side, the predicted sign 
 
 ## Platform reference (copied 2026-10-07)
 
-Submission bars, from BRAIN's results checks:
-- Sharpe: min _
-- Fitness: min _
-- Turnover: min _% · max _%
-- Self-correlation: max _
+Submission bars (USA · TOP3000 · delay 1). Community-documented, NOT yet confirmed on BRAIN:
+- Sharpe: min 1.25
+- Fitness: min 1.0
+- Turnover: min 1% · max 70%
+- Self-correlation: max 0.7
 
 Default settings, from a fresh simulation's Settings panel:
 - Language: Fast Expression · Instrument type: Equity
