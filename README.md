@@ -4,7 +4,7 @@ WorldQuant BRAIN alpha research, logged hypothesis. Every run is in [log.md](log
 
 ## Rule
 
-Every entry states the hypothesis, who takes the other side, the predicted sign and the predicted turnover before any result is pasted. Every kill is logged with its cause: turnover, correlation, wrong sign or one lucky year. Every idea counts its variants.
+Every entry states the hypothesis, who takes the other side, the predicted sign, Sharpe band and turnover before any result is pasted. Every kill is logged with its cause: turnover, correlation, wrong sign or one lucky year. Every idea counts its variants.
 
 ## How a run is logged
 
@@ -17,28 +17,31 @@ Every entry states the hypothesis, who takes the other side, the predicted sign 
 
 ```
 ## R___ · YYYY-MM-DD · <idea name>
-- **Expression:**  
+- **Expression:** private/R___ (from R006) 
 - **Settings:** USA · TOP3000 · delay 1 · decay _ · neutralization _ · truncation _
 - **Hypothesis:**  
 - **Other side:**  
-- **Predicted:** sign _ · turnover low / medium / high
+- **Predicted:** sign _ · Sharpe _–_ (band ≤ 0.5 wide) · turnover _–_%
 - **Variants tested (incl. this one):** _
 
 **Result**
 
 - Sharpe _ · fitness _ · turnover _% · returns _% · drawdown _%
 - **Yearly:** stable / carried by one year
+- **Failed checks:** _
 - **Verdict:** keep / kill (turnover | correlation | wrong sign | one lucky year) / submit
 - **Grade:**
 ```
 
-## Platform reference (copied 2026-10-07)
+## Platform reference (copied 2026-11-21)
 
-Submission bars (USA · TOP3000 · delay 1). Community-documented, NOT yet confirmed on BRAIN:
+Submission checks, copied from BRAIN's checks panel on 2026-11-21 (USA · TOP3000 · delay 1):
 - Sharpe: min 1.25
 - Fitness: min 1.0
 - Turnover: min 1% · max 70%
-- Self-correlation: max 0.7
+- Sub-universe Sharpe: cutoff scales with the alpha's Sharpe (0.43 at Sharpe 1.00)
+- Weight well distributed over instruments: pass / fail
+- Self-correlation: pending until a first submission (community value 0.7)
 
 Default settings, from a fresh simulation's Settings panel:
 - Language: Fast Expression · Instrument type: Equity
