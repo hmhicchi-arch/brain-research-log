@@ -92,3 +92,5 @@
 - **Verdict:** keep / modify (clean turnover (3.55%) + decent fitness (0.66), the performance being affected mostly because of Covid black swan)
 - **Grade:** sign right · turnover low (20% => <20%, value investing)
 
+
+2026-11-21 · From R006, expressions live in private/ (gitignored, backed up to Drive); this log keeps hypothesis, prediction, result and verdict.
